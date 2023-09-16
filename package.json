@@ -1,0 +1,25 @@
+{
+  "name": "sendpls",
+  "version": "0.0.0",
+  "description": "A messaging app with E2E encryption",
+  "packageManager": "pnpm@8.7.5",
+  "main": "built/index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "cd built/ && python3 -m http.server 8080"
+  },
+  "keywords": [
+    "messaging",
+    "webapp"
+  ],
+  "author": "Harikrishnan Balagopal",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "firebase": "^10.4.0"
+  }
+}
